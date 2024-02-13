@@ -1,0 +1,29 @@
+body {
+    background-color: #c9d5ff;
+}
+
+h3 {
+    color: #462a00;
+}
+
+/*instead of having the same css styles on several h3 html tags, we can use class attributes in html to indicate seperate css styles on our stylesheet.*/
+
+.skills {
+    color:azure;
+}
+
+.edu {
+    color:beige;
+}
+
+img:hover {
+    border-style: dotted;
+    border-color: blueviolet;
+}
+
+hr {
+    border-style:dashed;
+    border-width: 2px;
+    height: 1px;
+    width: 10%;
+}
